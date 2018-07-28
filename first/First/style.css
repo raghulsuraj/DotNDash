@@ -104,7 +104,7 @@ a:hover{
 .breadcrumb{
 	padding:70px 0;
 	margin:0;
-	background:url('img/breadgramb_bg.jpg');
+	background:url('img/blue-tech.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 	position:relative;
@@ -229,37 +229,11 @@ a:hover{
 .color-plate span.color1{
 	background:#ed5409;
 }
-.color-plate span.color2{
-	background:#ED1C24;
-}
-.color-plate span.color3{
-	background:#16A085;
-}
-.color-plate span.color4{
-	background:#FF9800;
-}
-.color-plate span.color5{
-	background:#FF6853;
-}
-.color-plate span.color6{
-	background:#82B440;
-}
-.color-plate span.color7{
-	background:#36BFC4;
-}
-.color-plate span.color8{
-	background:#4CAF50;
-}
-.color-plate span.color9{
-	background:#8e44ad;
-}
-.color-plate span.color10{
-	background:#1DABB8;
-}
 
-/*============================
+
+/*
 	Header CSS
-==============================*/
+*/
 .header{
 	background:#fff;
 	z-index:999999;
@@ -378,14 +352,14 @@ a:hover{
 	animation: fadeInDown 0.8s both 0s;
 }
 
-/*===================
+/*
 	End Header CSS
-=====================*/
+*/
 
 
-/*===================
+/*
 	Slider CSS
-=====================*/
+*/
 #slider{
 	position:relative;
 }
@@ -520,9 +494,9 @@ a:hover{
 	background-color: #fff;
 }
 
-/*=========================
+/*
 	features CSS
-===========================*/
+*/
 #features{
 	
 }
@@ -569,13 +543,13 @@ a:hover{
 	color:#989898;
 }
 
-/*=========================
+/*
 	End features CSS
-===========================*/
+*/
 
-/*=========================
+/*
 	services CSS
-===========================*/
+*/
 #Services{
 	background:#fff;
 }	
@@ -628,15 +602,15 @@ a:hover{
 }
 
 
-/*=========================
+/*
 	End services CSS
-===========================*/
+*/
 
 
 
-/*===================
+/*
 	Latest Works CSS
-=====================*/
+*/
 .latest-works{
 	
 }
@@ -952,14 +926,14 @@ a:hover{
 }
 
 
-/*=======================
+/*
 	End Latest Works CSS
-=========================*/
+*/
 
 
-/*===================
+/*
 	Testimonials
-=====================*/
+*/
 #testimonials{
 	background-image:url('img/testi-bg.jpg');
 	background-size:cover;
@@ -1041,13 +1015,13 @@ a:hover{
 }
 #testimonials .owl-dots button span{
 }
-/*===================
+/*
 	End Testimonials
-=====================*/
+*/
 
-/*===================
+/*
 	Blog
-=====================*/
+*/
 
 #blog{}
 #blog .single-news{
@@ -1397,9 +1371,9 @@ a:hover{
 }
 
 
-/*===================
+/*
 	Fun Facts CSS
-=====================*/
+*/
 .fun-facts{
 	text-align:center;
 	margin-top:30px;
@@ -1445,14 +1419,14 @@ a:hover{
 	font-size:15px;
 }
 
-/*===================
+/*
 	End Fun
-=====================*/
+*/
 
 
-/*===================
+/*
 	Team
-=====================*/
+*/
 #team{}
 
 /* single-team */
@@ -1548,15 +1522,15 @@ a:hover{
 	color:#888888;
 	font-size:14px;
 }
-/*===================
+/*
 	End Team
-=====================*/
+*/
 
 
 
-/*=======================
+/*
   P Table4 CSS
-=========================*/
+*/
 
 .p-table4{
 	background:#F0EDED;
@@ -1707,9 +1681,9 @@ a:hover{
 }
 
 
-/*===================
+/*
 	Error Page
-=====================*/
+*/
 .error {
 	background: #fff;
 }
@@ -1827,14 +1801,14 @@ a:hover{
 .error .error-right img{}
 
 
-/*===================
+/*
 	End Error Page
-=====================*/
+*/
 
 
-/*===================
+/*
 	mail success Page
-=====================*/
+*/
 .mail-success{}
 .mail-success .mail-head{
 	text-align:center;
@@ -1926,9 +1900,9 @@ a:hover{
 	height: 100%;
 }
 
-/*===================
+/*
 	End mail success Page
-=====================*/
+*/
 
 
 
@@ -1948,9 +1922,9 @@ a:hover{
 }
 
 
-/*===================
+/*
 	About US CSS
-=====================*/
+*/
 .skill{}
 .skill h2 {
 	font-size: 25px;
@@ -2006,17 +1980,17 @@ a:hover{
 	border: 7px solid #ED1C24;
 	border-radius: 100%;
 }
-/*=======================
+/*
   End About US CSS
-=========================*/
+*/
 
 
 
 
 
-/*===================
+/*
 	contact
-=====================*/
+*/
 #contact{
 	position:relative;
 }
@@ -2119,14 +2093,14 @@ a:hover{
 	margin-left:5px;
 }
 
-/*===================
+/*
 	End contact
-=====================*/
+*/
 
 
-/*===================
+/*
 	Clients CSS
-=====================*/
+*/
 .clients{
 	background:#fff;
 }
@@ -2142,15 +2116,15 @@ a:hover{
 .clients .single-clients img{
 	
 }
-/*===================
+/*
 	End Clients CSS
-=====================*/
+*/
 
 
 
-/*===================
+/*
 	Footer CSS
-=====================*/
+*/
 .footer{
 	padding:0;
 	background-color:#F6F6F6;
@@ -2316,6 +2290,6 @@ a:hover{
 	font-size:15px;
 	
 }
-/*===================
+/*
 	End Footer CSS
-=====================*/
+*/
