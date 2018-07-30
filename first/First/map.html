@@ -1,0 +1,14 @@
+
+		<!-- MAP API -->
+		<script>
+			function initMap() {
+				var location = {lat: 13.038190, lng: 80.156546};
+				var map = new google.maps.Map(getElementById("map"),{
+					zoom: 4,
+					center: location
+				});
+			}
+			
+		</script>
+		<!-- MAP API Ends -->
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=keygoeshere&callback=initMap"></script>

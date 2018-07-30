@@ -249,15 +249,25 @@
 		<script src="js/particles.min.js"></script>
 		<script src="js/particle-code.js"></script>
 		<script src="js/jquery.counterup.min.js"></script>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
-        <script type="text/javascript" src="js/gmaps.min.js"></script>
-        <!-- MAP API -->
+		  <script src="js/main.js"></script>
+		<!-- MAP API -->
 		<script>
 			function initMap() {
-				var location = {lat: -25.35, lng: 131.044};
+				var location = {lat: 13.038190, lng: 80.156546};
+				var map = new google.maps.Map(getElementById("map"),{
+					zoom: 4,
+					center: location
+				});
+				var marker = new google.maps.Marker({
+					position: location,
+					map: map
+				});
 			}
+			
 		</script>
 		<!-- MAP API Ends -->
-        <script src="js/main.js"></script>
+		<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw&callback=initMap"></script> -->
+
+      
     </body>
 </html>
